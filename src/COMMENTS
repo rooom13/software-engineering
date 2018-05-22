@@ -1,0 +1,14 @@
+Lab 1:
+- Preguntas incompletas y/o con errores de GIT: Q4, Q5
+Lab 2:
+- Faltan bastantes REFACTOR commit, así como especificar el fichero sobre el cual estáis haciendo el commit (siempre ponéis ItemTest cuando era el ejemplo de la práctica; deberían ir nombres como AuthorTest)
+- Los tests no se deberían modificar
+- Para devolver un variables primitivas como int, no hace falta el uso del const
+Lab 3:
+- Asunto mail incorrecto
+- Todos los commits tienen formato incorrecto
+- Por lo demás práctica perfecta
+Lab 4:
+- La clase itemtest no existe (commits)
+- Se han subido algunos compilados al repositorio
+- Por lo demás perfecto

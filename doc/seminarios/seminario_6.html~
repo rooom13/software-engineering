@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>S6</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <meta http-equiv="robots" content="noindex,nofollow" />
+  <link rel="stylesheet" type="text/css" href="style/style.css" />
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><a href="index.html"><span class="logo_colour">Seminarios </span></a></h1>
+          <h2>Ingenier&iacutea de software</h2>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+           <li><a href="index.html">Inicio</a></li>
+          <li><a href="seminario_1.html">Seminario 1</a></li>
+          <li><a href="seminario_2.html">Seminario 2</a></li>
+          <li><a href="seminario_3.html">Seminario 3</a></li>
+          <li><a href="seminario_4.html">Seminario 4</a></li>
+          <li><a href="seminario_5.html">Seminario 5</a></li>
+		<li class="selected"><a href="seminario_6.html">Seminario 6</a></li>
+<li><a href="seminario_7.html">Seminario 7</a></li>
+	  <li><a href="glosario.html">Glosario</a></li>
+	  <li><a href="puntos_Obs.html">Puntos oscuros</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="content_header"></div>
+    <div id="site_content">
+      <div class="sidebar">
+        <!-- insert your sidebar items here -->
+        <!--h3>Latest News</h3>
+
+      
+      
+        </form>-->
+      </div> 
+      <div id="content">
+		  
+		  
+       <h1>Seminario 6, The Adapter design pattern</h1>
+
+<b >Si el diagrama no se ve entero clica </b>
+ <a href="style/Adapter.png"> aqu&iacute </a> 
+<img src="style/Adapter.png" alt="Adapter"   />
+
+      </div>
+    </div>
+    </body>
+</html>

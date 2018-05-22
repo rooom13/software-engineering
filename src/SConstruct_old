@@ -1,0 +1,51 @@
+import os, glob, sys
+
+pkgpath = os.environ.get("PKG_CONFIG_PATH", "")
+os.environ["PKG_CONFIG_PATH"] = pkgpath
+
+paths = [
+	"./",
+	"unitTests/",
+	"functionalTests/",
+	"externalLibs/",
+]
+
+mains = [
+	"externalLibs/TestsRunner.cxx",
+]
+
+sources = []
+for path in paths :
+	sources += [
+		item
+		for item in glob.glob(path+"*.cxx")
+		if item not in mains
+	]
+
+env = Environment(tools=["default"], toolpath=["externalLibs"])
+
+def print_cmd_line(commandline, target, source, env) :
+	sys.stdout.write("\033[33m%s\033[0m\n"%commandline)
+	sys.stdout.flush()
+env['PRINT_CMD_LINE_FUNC'] = print_cmd_line
+
+env.AppendUnique(
+	CPPPATH=paths,
+	CXXFLAGS=[
+		"-Wall",
+		"-pedantic",
+		"-g",
+		"-Wno-long-long",
+	]
+)
+
+alltests = env.Program("AllTests",
+	sources + ["externalLibs/TestsRunner.cxx"]
+)
+
+runTest = env.Command("AllTests.passed",alltests,"valgrind -q --leak-check=yes ./AllTests")
+
+env.Default(runTest)
+env.AlwaysBuild(runTest)
+
+

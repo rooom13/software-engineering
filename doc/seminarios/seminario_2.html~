@@ -1,0 +1,204 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>S2</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <meta http-equiv="robots" content="noindex,nofollow" />
+  <link rel="stylesheet" type="text/css" href="style/style.css" />
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+                    <h1><a href="index.html"><span class="logo_colour">Seminarios </span></a></h1>
+          <h2>Ingenier&iacutea de software</h2>
+          
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="seminario_1.html">Seminario 1</a></li>
+          <li class="selected"><a href="seminario_2.html">Seminario 2</a></li>
+          <li><a href="seminario_3.html">Seminario 3</a></li>
+          <li><a href="seminario_4.html">Seminario 4</a></li>
+          <li><a href="seminario_5.html">Seminario 5</a></li>
+          <li><a href="seminario_6.html">Seminario 6</a></li>
+	  <li><a href="seminario_7.html">Seminario 7</a></li>
+	  <li><a href="glosario.html">Glosario</a></li>
+<li><a href="puntos_Obs.html">Puntos oscuros</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="content_header"></div>
+    <div id="site_content">
+      <div class="sidebar">
+        <!-- insert your sidebar items here -->
+        <!--h3>Latest News</h3>
+
+      
+      
+        </form>-->
+      </div> 
+      <div id="content">
+        <!-- insert the page content here -->
+        <h1>Seminario 2, Identificaci&oacuten de los requerimientos</h1>
+       <strong><p>1. Elaborar dos casos de uso:</p></strong>
+<p><b>Caso de uso: Comprar un libro</p></b>
+<li> Contexto: un usuario quiere comprar un libro via web.<p>
+</p></li><li> Actores primarios: Usuarios, principalmente clientes. <p>
+</p></li><li> Actores de soporte: El banco, el servicio de pago Paypal y servicios de correo el&eacutectrico..<p>
+</p></li><li> Precondiciones exitoso:  &nbsp; <ol>
+<li>- El usuario puede comunicarse con el sistema.
+</li><li>- El usuario puede pagar via online.
+</li><li>- El art&iacuteculo deseado tiene que estar disponible.
+</li></ol>
+</li><li> Poscondiciones exitoso: <ol>
+<li>- El usuario selecciona el art&iacuteculo deaseado.
+</li><li>- Se cobra con &eacutexito.
+</li></ol>
+</li><li> Poscondiciones no exitoso: <ol>
+<li>- No ha podido comprar
+</li><li>- Fallo en el sistema
+</li></ol>
+
+<strong><p> Basic Flow: </p></strong>
+  <ol><li>El usuario hace log in a la web.</li>
+  <li>El usuario busca el art&iacuteculo que desea.</li>
+  <li>El sistema verifica que hay stock.</li>
+  <li>Accede a la compra.</li>
+  <li> Se selecciona el m&eacutetodo de pago.</li>
+  <li> El sistema pide las credenciales seg&uacuten el m&eacutetodo</li>
+  <li> El sistema verifica los datos. </li>
+  <li> Se realiza la compra. </li>
+  <li> El sistema envia un mail de confirmaci&oacuten al cliente.</li>
+</ol>
+<p></p>
+<strong>Extensions:</strong>   
+<ol>
+<span>2.1 No existe art&iacuteculo</span> <br>
+<span>2.1.1 Mensaje: no hay art&iacuteculo.</span> <p>
+<span>3.1 Art&iacuteculo no disponible en stock.</span> <br>
+<span>3.1.1 Mensaje: no queda m&aacutes stock del art&iacuteculo.</span> </p><p>
+<span>5.1 M&eacutetodo de pago no soportado </span> <br>
+<span>5.1.1 Mensaje, mostrando otras alternativas.</span> </p><p>
+<span>7.1 Error de datos </span> <br>
+<span>7.1.1 Mensaje de error ---&gt; retroceder al punto 6.</span> </p><p>	
+<span></span>1-9 El usuario decide desconestarse del sistema <br>
+<span></span>1-9 El usuario es desconectado del sistema por x fallo.</p><p>				
+</p></ol>   
+
+<p><strong>Caso de uso: Validar trabajo subido </strong>  
+
+<li> Contexto: Se acaba de subir.</p>
+<li> Actores primarios: Autor y editor.<p>
+<li> Actores de soporte: Servicios de correo el&eacutectrico.<p>
+<li> Precondiciones: <ol>-Un autor sube un trabajo.</ol>
+<li> Poscondiciones exitoso: <ol>-Se valida el trabajo. </ol>
+<li> Poscondiciones no exitoso: <ol>- Se ha encontrado un error en el processo.</ol>
+</p></ol>
+
+<strong><p>Basic Flow: </strong></p><ol>
+  <li>El sistema verifica que no es un archivo malicioso.</li>
+  <li>El sistema verifica el formato del archivo.</li>
+  <li>El sistema verifica el tama&ntildeo del archivo.</li>
+  <li>El sistema verifica si el archivo esta corrupto.</li>
+  <li>El sistema valida la subida.</li>
+  <li>El sistema notifica al autor sobre la validaci&oacuten del fichero via mail.</li>
+</ol>
+
+<strong>Extensions: </strong>    
+<ol>
+<span>1.1 Virus detectado.</span> <br>
+<span>1.1.1 Advertencia al editor y al autor sobre el problema via mail ---&gt; retroceder al punto 1 </span> <p>
+<span>2.1 Formato no compatible.</span> <br>
+<span>2.1.1 Mensaje al autor con detalles de compatibilidad ---&gt; retroceder al punto 1 </span> </p><p>
+<span>3.1 Tama&ntildeo no compatible. </span> <br>
+<span>3.1.1 Mensaje al autor notificando problema de tama&ntildeo ---&gt; retroceder al punto 1 </span> </p><p>
+<span>4.1 Corrupci&oacuten detectado </span> <br>
+<span>4.1.1 Mensaje al autor notificando problema de corrupci&oacuten ---&gt; retroceder al punto 1 </span>	
+	
+</p></ol>   
+
+
+<strong><p>2. Stakeholders implicados.</p></strong>
+
+
+<b>Purchase book:</b>
+<ol>
+
+
+ -Users<br>
+ -Entidades bancarias<br>
+ -Paypal<br>
+ -Servicio de Email.<br>
+ -Melting pot<br>
+ -Devs<br>
+
+
+</ol>
+
+<b>validate uploaded work:</b>
+<ol>
+
+- Users <br>
+- Editor<br>
+- Servicio de Email.<br>
+- Melting pot<br>
+- Devs<br>
+
+</ol>
+
+<strong><p>3. Identify all actors and use cases of the system as well as relations between them.</p></strong>
+
+<b>Actors: <ol> </b>
+
+<span> <b>- User: </b>Un user se registra, hace login y logout; pudiendo actualizar su perfil. Puede buscar un libro con una b&uacutesqueda detallada y a&ntildeadir su art&iacuteculo a una cesta con la que posteriormente realizar&aacute el pedido y efectuar&aacuteel pago. Opcionalmente puede aportar una donaci&oacuten mediante Paypal<br>
+<span> <b>- Melting Plot: </b>La editorial ofrece los servicios desde la p&aacutegina web<br>
+<span> <b>- Desarolladores: </b>Van a tener que ajustarse a los par&aacutemetros indicados por la editorial<br>
+<span> <b>- Editor: </b>Modificar&aacute el cat&aacutelogo seg&uacuten le convenga a la editorial<br>
+<span> <b>- Autor: </b>Subir&aacute contenido a la web que luego los usuarios podr&aacuten adquirir<br>
+<span> <b>- Servicio Email: </b>Se encargar&aacute de administrar las notificaciones via correo electr&oacutenico<br>
+<span> <b>- Entidades bancarias: </b>Se encargan de ofrecer el servicio de pago<br>
+<span> <b>- Paypal: </b>Encargado de ofrecer el servicio de donaciones<br>
+
+
+</ol>
+
+
+
+<b>Use cases:<ol> </b>
+
+<span> <b>- Login: </b>El usuario accede a su cuenta<br>
+<span> <b>- Registrar: </b>Un nuevo usuario se registra en la p&aacutegina web<br>
+<span> <b>- Logout: </b>EL usuario cierra sesi&oacuten<br>
+<span> <b>- Actualizar el perfil: </b>El usuario modifica la configuraci&oacuten de su perfil<br>
+<span> <b>- Buscar un libro: </b>Orientado a que un usuario consulte un art&iacuteculo, pudiendo hacer una b&uacutesqueda con filtros<br>
+<span> <b>- A&ntildeadir un art&iacuteculo en la cesta: </b>Orientado a que el usario decida comprar el art&iacuteculo<br>
+<span> <b>- Realizar pedido: </b>El usuario tramita el pedido<br>
+<span> <b>- Realizar pago: </b>El usuario accede a realizar el cobro por los productos adquiridos tras verificar sus credenciales y permitir a la entidad bancaria realizar el tr&aacutemite<br>
+<span> <b>- Validar credenciales: </b>La entidad bancaria comprueba que las credenciales sean correctas<br>
+<span> <b>- Donar: </b>El usuario accede a donar dinero v&iacutea PayPal<br>
+<span> <b>- Subir un archivo: </b>Un autor decide subir una obra<br>
+<span> <b>- Modificar el cat&aacutelogo: </b>El editor decide qu&eacute obras deben o no estar en el cat&aacutelogo y c&oacutemo.<br>
+<span> <b>- Notificar v&iacutea email: </b>El proveedor de servicio de correo electr&oacutenico env&iacutea una notificaci&oacuten v&iacutea mail al sujeto que la requiera<br>
+</ol>
+
+<strong><p>4. Diagrama de casos de uso.</p>
+<img src="style/Diagram1.png" alt="Diagram1"   />
+<strong><p>5. Glosario actualizado en su pesta&ntildea.</p>
+
+<strong><p>6. Lista de puntos oscuros actualizada en su pesta&ntildea.</p>
+	
+
+      </div>
+    </div>
+    </body>
+</html>

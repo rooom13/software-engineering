@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>S1</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <meta http-equiv="robots" content="noindex,nofollow" />
+  <link rel="stylesheet" type="text/css" href="style/style.css" />
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->          <h1><a href="index.html"><span class="logo_colour">Seminarios </span></a></h1>
+          <h2>Ingenier&iacutea de software</h2>
+          
+          
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+          <li><a href="index.html">Inicio</a></li>
+          <li class="selected"><a href="seminario_1.html">Seminario 1</a></li>
+          <li><a href="seminario_2.html">Seminario 2</a></li>
+          <li><a href="seminario_3.html">Seminario 3</a></li>
+          <li><a href="seminario_4.html">Seminario 4</a></li>
+           <li><a href="seminario_5.html">Seminario 5</a></li>
+           <li><a href="seminario_6.html">Seminario 6</a></li>
+<li><a href="seminario_7.html">Seminario 7</a></li>
+<li><a href="glosario.html">Glosario</a></li>
+<li><a href="puntos_Obs.html">Puntos oscuros</a></li>
+
+        </ul>
+      </div>
+    </div>
+    <div id="content_header"></div>
+    <div id="site_content">
+      <div class="sidebar">
+        <!-- insert your sidebar items here -->
+        <!--h3>Latest News</h3>
+
+      
+      
+        </form>-->
+      </div> 
+      <div id="content">
+        <!-- insert the page content here -->
+        <h1>Seminario 1, Elicitaci&oacuten de los requerimientos</h1>
+        <strong> 1. Stakeholders</strong> 
+<p></p>
+<li>Salesperson
+<li>Melting Plot
+<li>Clientes de Melting Plot
+<li>Creadores de contenido (Autores)
+<li>Editores de la p&aacutegina
+<li>Developers (Coders, designers, ilustradores...)
+<li>Servicio de pago de donaciones (Paypal)
+<li>Servicio de pago de compras (Entidades bancarias)
+<li>Empresas de soporte de formato (Microsoft, Adobe...)
+<li>Comunidad de licencias Creative Commons
+<li>Servicio de correo electr&oacutenico
+<p></p>
+<strong><p>2. Glosario actualizado en su pesta&ntildea.</p>
+
+<strong><p>3. Lista de puntos oscuros actualizada en su pesta&ntildea.</p>
+<!--strong>2. Puntos oscuros</strong>
+<p></p>
+<li> En el texto se menciona sobre dificultades de mantenimiento producido por el modelo est&aacutetico, pero no especifica de forma detalladas cuales son estas dificultades. </li>
+<li> La idea de una p&aacutegina atractiva es muy ambig&uumledades entre los que nos puede pedir por parte de editorial, lo que el dise&ntildeador considere bonito y tambi&eacuten por parte de los usuarios. As&iacute que una idea ser&iacutea pasar modelos de prototipos y atrav&eacutes de votos escoger uno del pool. 
+<li>Limite  de tiempo y/o tama&ntildeo que hay ser los archivos subidos?
+<li> Implementaciones de m&aacutes funcionalidades no se queda claro ya que la lista mencionada acaba en etc.:"search, subscriptions to novel content, offers, recommendations, etc. "
+
+<li>No se proporciona la lista entera de categor&iacuteas ni de las colecciones que aparecer&aacuten en la web.
+
+<li>Informaci&oacuten de perfil de los usuarios tanto sea cliente, autores o moderador de la web. 
+
+<p></p>
+<!--strong>3. Glosario</strong>
+<p></p>
+<li>Salesperson: l representante comercial de la empresa, que contacta con las empresas clientes.
+
+<li>Melting Plot: Empresa cliente, una editorial que busca mejorar su servicio online.
+<li>Creative Commons licence: Las licencias y herramientas de derechos de autor Creative Commons, genera un equilibrio dentro del escenario tradicional de "todos los derechos reservados" que crean las leyes de propiedad intelectual. 
+<li>Clientes de Melting Plot:
+<li>Editores de la p&aacutegina: Desarrolladores de melting Plot encargados de editar y actualizar el contenido de la p&aacutegina.
+<li>Servicio de pago/donaciones : Servicio de pago online contratado para las compras y servicio de paypal para las donaciones.  
+<li>Empresas de soporte de formato: Empresas que ofrecen servicio de procesamiento de texto que utilizar&aacute la p&aacutegina.
+<li>Layout: Pesta&ntildea/pantalla/panel que Ofrece informaci&oacuten o desarrolla una funci&oacuten. Ej: Layout del cat&aacutelogo de novedades.
+<li>Portal: P&aacutegina web.
+<li>Catalogue: Todos aquellos art&iacuteculos que es visible para los clientes de la web. 
+<li>Watermark: Se&ntildeal que muestra el copyright o logo de la editorial de una manera poco molesta.
+<li>Collection: Agrupaci&oacuten de los art&iacuteculos por caracter&iacutesticas comunes. -->
+
+      </div>
+    </div>
+    </body>
+</html>

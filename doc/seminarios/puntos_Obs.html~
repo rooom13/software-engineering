@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Puntos_obs</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <meta http-equiv="robots" content="noindex,nofollow" />
+  <link rel="stylesheet" type="text/css" href="style/style.css" />
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+                    <h1><a href="index.html"><span class="logo_colour">Seminarios </span></a></h1>
+          <h2>Ingenier&iacutea de software</h2>
+          
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="seminario_1.html">Seminario 1</a></li>
+          <li><a href="seminario_2.html">Seminario 2</a></li>
+          <li><a href="seminario_3.html">Seminario 3</a></li>
+          <li><a href="seminario_4.html">Seminario 4</a></li>
+                    <li><a href="seminario_5.html">Seminario 5</a></li>
+                    <li><a href="seminario_6.html">Seminario 6</a></li>
+	<li><a href="seminario_7.html">Seminario 7</a></li>
+	  <li ><a href="glosario.html">Glosario</a></li>
+	<li class="selected"><a href="puntos_Obs.html">Puntos oscuros</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="content_header"></div>
+    <div id="site_content">
+      <div class="sidebar">
+        <!-- insert your sidebar items here -->
+        <!--h3>Latest News</h3>
+
+      
+      
+        </form>-->
+      </div> 
+      <div id="content">
+        <!-- insert the page content here -->
+         <h1>Puntos oscuros</h1>
+      <p>Aqui desarrollamos todos aquellos puntos que no se quedado claro en cada sesi&oacuten de seminario.</p>
+	  
+	  <strong><p>Seminario 1</p></strong>
+	   
+<li> En el texto se menciona sobre dificultades de mantenimiento producido por el modelo est&aacutetico, pero no especifica de forma detalladas cuales son estas dificultades. </li><br>
+<li> La idea de una p&aacutegina atractiva es muy ambig&uumledades entre los que nos puede pedir por parte de editorial, lo que el dise&ntildeador considere bonito y tambi&eacuten por parte de los usuarios. 
+As&iacute que una idea ser&iacutea pasar modelos de prototipos y atrav&eacutes de votos escoger uno del pool. </li><br>
+<li> Limite  de tiempo y/o tama&ntildeo que hay ser los archivos subidos?</li><br>
+<li> Implementaciones de m&aacutes funcionalidades no se queda claro ya que la lista mencionada acaba en etc.:"search, subscriptions to novel content, offers, recommendations, etc. "</li><br>
+
+<li>No se proporciona la lista entera de categor&iacuteas ni de las colecciones que aparecer&aacuten en la web.</li><br>
+
+<li>Informaci&oacuten de perfil de los usuarios tanto sea cliente, autores o moderador de la web.</li><br>
+
+  <strong><p>Seminario 2</p></strong>
+    
+  <li> Nosotros en el caso de uso "validate uploaded work" hemos tenido un poco de dudas por los posibles actores que podr&iacutea interferir. Ya que tampoco se ha especifica nada en el primer texto del seminario 1 respecto quien se har&aacute carg&oacute de esto. Por nuestra parte hemos supuesto que el 
+  editor participara y mediara los casos de error que haga falta intervenci&oacuten humana. </li><br>
+  <li> Asumimos algunos aspectos que no ha sido mencionado en los textos. Como por ejemplo cuantas fases tendr&aacute los procesos de validaci&oacuten. O si se utiliza correo electr&oacutenico para notificar or mensaje en la propio web. </li>
+    </body><br>
+    
+   <strong><p>Seminario 5</p></strong>
+    
+  <li>  No se ha dejado muy claro los diferentes estilos que tendrán un work. Style ¿es un String? ¿Una clase? Nosotros lo hemos diseñado como una clase.  </li><br>
+  <li>En la operación de búsqueda no queda claro cual será la llave,  hemos supuesto que se usará el nombre para buscar  </li><br>
+  <li> Aunque no se especificaran el uso de constructores, los hemos definido.</li><br>
+  
+    </body> 
+</html>

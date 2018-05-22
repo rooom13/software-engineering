@@ -1,0 +1,53 @@
+Seminar 1:
+- En el ejercicio de clase no se han detectado los puntos oscuros que se deberían. Algunos stakeholders son incorrectos y falta bastante glosario
+- index.html debe colgar de doc/ , no de doc/seminarios/
+- Los obscure points detectados son muy superficiales, hay algunos que son más importantes y que se pueden extraer del texto como por ejemplo. me piden enviar una lista de los top 10, pero top 10 sobre qué? categoria, rating, preferencias del usuario, ...
+- En el glosario faltan definir más funcionalidades del sistema
+
+Seminar 2:
+- index.html debería colgar de doc/
+- "Validar trabajo subido" solo puede tener un actor primario y faltan puntos en el basic flow.
+- El diagrama de casos de uso deberían acabar todos conectados, y hay que poner las flechas adecuadas.
+
+Seminar 3:
+- index.html debe colgar de doc/
+- Falta la parte de sistema de distribución
+- Se podría haber puesto algun requerimiento de texto de más
+
+Seminar 4:
+- Ejercicio de clase, los requerimientos no funcionales deberian estar clasificados por conceptos
+- index.html debería colgar de doc/
+- En el final, no se dice la clase sobre la que trabaja el state-diagram
+- En el final, falta por clasificar los requerimientos
+- En el final, "publishing a book" le faltarían actividades
+
+Seminar 5:
+- La imagen no está bien insertada en el html
+- Según vuestro diagrama, Work debería gestionar Style
+- Todos los métodos deben ser accesibles a través del Facade (así que faltan muchos métodos en esta clase)
+
+Seminar 6: 
+- The complete class diagram with the adpater is not provided 
+- Format class should manage the memory of adapter class. It's not a dependecy relationship
+
+Seminar 7:
+- One Subject can have many Observers to get notified (check the cardinality between these two classes)
+- Wrong relationships between classes (Author, Topic and Collection with ThematicChannel class??)
+- ThematicChannel class should not be an Observer. But it shoud be a Subject class generating news
+
+Seminar 8:
+- Where is the png file of the final class diagram?
+- Cardinalities between Client - Strategy and Client - Creator classes are not correct
+- CLient should manage the memory of Strategy Objects
+
+Seminar 9:
+- To simplify you could have used the recursive function given in the seminar
+- Fraction <Type> is the better way to refer Fraction objects types
+- You could have written "using namespace std" at the top to avoid lots of std:: lines in the code
+- Be careful when printing the values. The result could be combined as one string and cout from one line of code
+
+Seminar 10:
+- View needs to incorporate GUI components (eg: showmessage method should show some text in a "Label" or "Textbox" etc..)
+- It's good to provide all the methods and attributes of the existing Facade class in the Model
+
+

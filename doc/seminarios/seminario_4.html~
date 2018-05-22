@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>S4</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <meta http-equiv="robots" content="noindex,nofollow" />
+  <link rel="stylesheet" type="text/css" href="style/style.css" />
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><a href="index.html"><span class="logo_colour">Seminarios </span></a></h1>
+          <h2>Ingenier&iacutea de software</h2>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="seminario_1.html">Seminario 1</a></li>
+          <li><a href="seminario_2.html">Seminario 2</a></li>
+          <li><a href="seminario_3.html">Seminario 3</a></li>
+          <li class="selected"><a href="seminario_4.html">Seminario 4</a></li>
+                        <li><a href="seminario_5.html">Seminario 5</a></li>
+                        <li><a href="seminario_6.html">Seminario 6</a></li>
+<li><a href="seminario_7.html">Seminario 7</a></li>
+	  <li><a href="glosario.html">Glosario</a></li>
+	    	  <li><a href="puntos_Obs.html">Puntos oscuros</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="content_header"></div>
+    <div id="site_content">
+      <div class="sidebar">
+        <!-- insert your sidebar items here -->
+        <!--h3>Latest News</h3>
+
+      
+      
+        </form>-->
+      </div> 
+      <div id="content">
+        <!-- insert the page content here -->
+        <h1>Seminario 4, Requerimientos no funcionales</h1>
+
+<p align = "justify"><strong>State diagram for client</p></strong>
+
+
+<img src="style/stateDiagram.png" alt="stateDiagram"   />
+
+<p align = "justify"><li>Non-functional requirements.</li></p>
+
+	<ol>
+		
+<li>El nombre del usuario no puede contener palabras ofensivas.</li>
+<li>La contraseña usada tiene que ser de 6 dígitos como mínimo y combinar números y letras.</li>
+<li>La validación de las cuentas se realizará por correo después de la registración de una nueva cuenta.</li>
+<li>La cesta tiene un tamaño máximo de 20, por motivos de capacidad de envíos.</li>
+<li>No se puede hacer charge-back de una donación superior a 100 euros.</li>
+<li>No se pueden subir obras de temáticas censuradas por la legislación del estado ya que podrían causar problemas judiciales.</li>
+<li>El tamaño máximo para los archivos tiene que ser de xxx MBs.</li>
+<li>Por motivos de organización y equipo de desarolladores de la empresa el lenguaje de programaciín será C++</li>
+<li>La fecha de finalizacón de la etapa de desarrollo es de 2 meses. </li>
+<li>El diseño de página  tiene que ser minimalista, que el usuario no se sienta abrumado por el contenido visual. También tiene que acercar al usuario para que se sienta en una tienda física.</li>
+<li>Debe disponer de opciones para cambiar, principalmente entre inglés/español.</li>				
+	</ol>
+
+<p align = "justify"> <li> <b>Activity diagrams: </b></li></p>
+
+<p align = "justify"><strong>Pusblishing a book</p></strong>
+
+<img src="style/activityUploadWork.png" alt="publish"   />
+
+<p align = "justify"><strong>Purchase a book</p></strong>
+
+<img src="style/activityPurchaseWork.png" alt="purchase"   />
+
+<!--p align = "justify"><li> Optional (but highly recommended, especially in preparation of the second exam): elaborate
+other diagrams (state, activity, sequence, collaboration, etc.)
+</p></li!--->
+
+<p align = "justify"> <li> Hemos revisado los siguientes puntos:</li> <ol>
+
+<li><b>Domain requirements</b></li>
+
+<p>Tras revisar los requerimientos de dominio nos hemos dado cuenta que hay unos puntos que no hemos tenido en cuenta en las sesiones anteriores, éstos eran relevante porque tienen repercusión en el proceso e desarrollo y más adelante en el proceso de mantenimiento:</p>
+
+<ol>
+	<li>Sever y aspecto de backups de información, puede ser una de las gastos principales de la empresa. </li>
+	<li>Site security, ya que se usa métodos de pago online es necesario tener algo método de securidad para progeter a los clientes.</li>
+	<li>El uso de algún shipping software para informar el estado del envío. (Por ejemplo trackeo de los envíos)</li>
+			
+	</ol>
+
+<li><b>Glossary</b></li>
+
+<p>Actualizado en la pestaña de glosario correspondiente</p>
+
+    </body>
+</html>

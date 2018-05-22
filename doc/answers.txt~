@@ -1,0 +1,41 @@
+
+Q1:
+	"git status" muestra los archivos no trackeados y los no trackeados
+	Como no hemos añadido nada pues muestra "doc/" en "Untracked files"	
+	
+
+Q2:
+	Mediante "git add doc" añadimos el directorio "doc" al working tree. Entonces saldran los archivos dentro de /doc ya que los hemos trackeado. 
+
+Q3: 
+	"git diff README.md" nos dice las diferencias entre los ficheros de la STAGING AREA  y el WORKING DIR.
+
+Q4:
+	UN buen mensaje sería el status inicial del repositorio. En este caso es solo el contenido de doc.
+
+Q5:
+	Solo hay uno porque solo hemos hecho uno. Los 7 digitos son el idde commit.
+Q6:
+	"git show HEAD" nos muestra en rojo la ultima versión commited y en verde la actual commited
+
+Q7:	
+	"git reset HEAD README.md" restaura el fichero de la staging area, por lo que abriendo el fichero no percibiremos los cambios.
+	"git checkout HEAD README.md" restaura el fichero a la ultima version en el working repository, por lo que abriendo el fichero  percibiremos los cambios.
+
+Q8:
+	Nos muestra la master branch y la documents. El asterisco nos muestra que estamos en la master.
+
+Q9:
+	En la branch documents sale en el README.md "We are in documents branch"  mientras que en la master sale "HOLA" que es lo que teníamos.
+
+Q10:
+	Al unir las dos ramas nos salió error, se juntó el documento de answers incluyendo unos "<,> y =". L
+
+Q11:
+	Ahora en master.
+ 
+
+
+	
+
+
